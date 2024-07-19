@@ -39,7 +39,7 @@ class FamilyStructure:
         for member in self._members:
             if member["id"] == int(id):
                 return {
-                    "name": member["first_name"],
+                    "first_name": member["first_name"],  
                     "id": member["id"],
                     "age": member["age"],
                     "lucky_numbers": member["lucky_numbers"]
